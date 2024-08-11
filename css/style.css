@@ -1,0 +1,25 @@
+/* Colores: naranja, amarillo, verde, azul y rojo*/
+
+nav {
+    color: red;
+}
+
+.h1 {
+    color: green;
+    background-color: blue;
+}
+
+.zarpaje {
+    color: blue;
+    background-color: green;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ul, .li1 {
+    color: yellow;
+    background-color: orange;
+}
+
+form {
+    background-color: orange;
+}
