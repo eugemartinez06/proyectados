@@ -1,25 +1,69 @@
 /* Colores: naranja, amarillo, verde, azul y rojo*/
+body {
+    background-image: url(/imagenes/espuma.jpeg);
+    background-size: cover;
+    height: 100%;
+}
 
 nav {
-    color: red;
+    padding: 15%;
 }
 
 .h1 {
+    padding: 15%;
     color: green;
     background-color: blue;
 }
 
 .zarpaje {
+    padding: 25px;
     color: blue;
     background-color: green;
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.ul, .li1 {
+.ul, .li1, .li2, .li3 {
     color: yellow;
     background-color: orange;
+    padding: 25%;
 }
 
 form {
     background-color: orange;
 }
+
+.one {
+    margin-top: 10px;
+    width: 50%;
+    height: 90vh;
+    background-color: red;
+}
+
+.two {
+    margin-top: 10px;
+    width: 40%;
+    height: 80vh;
+    background-color: orange;
+}
+
+.three {
+    margin-top: 10px;
+    width: 30%;
+    height: 70vh;
+    background-color: blueviolet;
+}
+
+.four {
+    margin-top: 10px;
+    width: 20%;
+    height: 60vh;
+    background-color: green;
+}
+
+.nombre, .apellido, .contra, .name {
+    width: 50%;
+}
+
+
+
+
