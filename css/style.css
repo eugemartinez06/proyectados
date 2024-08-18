@@ -64,6 +64,44 @@ form {
     width: 50%;
 }
 
+.padre {
+    list-style-type: none;
+    padding: 0%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
 
+.padre li {
+    border: 1px solid salmon;
+    padding: 5px;
+}
 
+footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style-type: none;
+    color: blue;
+    padding: 10px;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+}
 
+/*.e1 {
+    background-color: cornflowerblue;
+    color: yellow;
+    flex-grow: 3;
+}
+
+.e2 {
+    background-color: violet;
+    color: white;
+    flex-basis: 10%;
+}*/
+@media (min-width: 767px) {
+    .padre {
+        display: flex;
+        flex-direction: row;
+        background-color: green;
+    }
+}
