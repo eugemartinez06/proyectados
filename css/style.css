@@ -5,10 +5,6 @@ body {
     height: 100%;
 }
 
-nav {
-    padding: 15%;
-}
-
 .h1 {
     padding: 15%;
     color: green;
@@ -21,11 +17,6 @@ nav {
     background-color: green;
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
-}
-.ul, .li1, .li2, .li3 {
-    color: yellow;
-    background-color: orange;
-    padding: 25%;
 }
 
 form {
@@ -164,4 +155,75 @@ footer {
 main {
     display: grid;
     grid-template-columns: auto;
+}
+
+.nav {
+    background-color: blue;
+    color: red;
+    list-style: none;
+    text-decoration: none;
+}
+
+.lil {
+    background-color: blue;
+    color: white;
+    list-style: none;
+    text-decoration-line: none;
+}
+
+.lil:hover {
+    color: white;
+}
+
+.section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.article {
+    background-color: red;
+    color: blue;
+    border: 5px solid white;
+    transition-property: background-color;
+}
+.article:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border: 5px dashed red;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.645);
+    transition: 1000ms;
+    scale: 1.02;
+}
+
+.footer {
+    background-color: white;
+    color: red;
+    border: 5px solid blue;
+}
+
+h2, p {
+    display: flex;
+    justify-content: center;
+}
+
+.div {
+    background-color: red;
+    border: 5px solid blue;
+    width: 200px;
+    margin: 20px;
+}
+
+.div {
+    animation: div 2s infinite;
+}
+
+@keyframes div {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
