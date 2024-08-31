@@ -1,4 +1,9 @@
 /* Colores: naranja, amarillo, verde, azul y rojo*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-image: url(/imagenes/espuma.jpeg);
     background-size: cover;
