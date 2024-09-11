@@ -1,0 +1,210 @@
+* {
+    margin: 1;
+    padding: 1;
+    background-image: url(/imagenes/fondo2.jpeg);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.titulo {
+    display: flex;
+    color: cornflowerblue;
+    font-size: 55px;
+}
+.barra {
+    margin: 20px;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    list-style-type: none;
+}
+.lil {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+h1 {
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 25px; 
+    margin-right: 25px;
+}
+footer {
+    margin-top: 10px;
+    display: flex;
+    gap: 100px;
+    color: cornflowerblue;
+    list-style: none;
+}
+.fondo {
+    padding: 10%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(/imagenes/consultorio.png);
+    background-size: cover;
+    background-position: center;
+}
+.texto {
+    padding: 10%;
+    font-size: large;
+    border-radius: 10px;
+    color: cornflowerblue;
+    width: 50%;
+    text-align: center;
+    background-color: none;
+}
+
+.sectioncard {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.article {
+    color: cornflowerblue;
+    border-radius: 5px;
+    border: 5px solid rgb(204, 165, 205);
+    transition-property: background-color;
+    text-align: center;
+}
+
+.article:hover {
+    color: rgb(204, 165, 205);
+    cursor: pointer;
+    border: 5px solid cornflowerblue;
+    box-shadow: 5px 5px rgb(204, 165, 205);
+    transition: 1000ms;
+    scale: 1.10;
+}
+
+.padre {
+    list-style-type: none;
+    padding: 0%;
+    width: 25%;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.padre li {
+    color: cornflowerblue;
+    border: 1px solid white;
+    padding: 10%;
+    text-decoration: none;
+    text-decoration-line: none;
+    list-style: none;
+    list-style-type: none;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+    list-style: none;
+    list-style-type: none;
+    color: cornflowerblue;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-style: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 140%;
+    overflow: auto;
+    list-style: none;
+    list-style-type: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    list-style: none;
+    list-style-type: none;
+    color: cornflowerblue;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+    color: cornflowerblue;
+}
+
+.dropdown-content a:hover {
+    list-style: none;
+    list-style-type: none;
+    color: rgb(204, 165, 205);
+}
+
+article img {
+    width: 250px;
+    height: 250px;
+}
+
+.e1 .e2 .e3 .e4 .e5 {
+    list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    text-decoration-line: none;
+    color: cornflowerblue;
+}
+
+a {
+    text-decoration: none;
+    list-style-type: none;
+    list-style: none;
+    color: cornflowerblue;
+}
+
+form {
+    padding: 5px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+}
+
+h2 {
+    margin-left: 20px;
+    color: cornflowerblue;
+}
+
+.cs {
+    color: cornflowerblue;
+}
+
+input {
+    color: cornflowerblue;
+    font-weight: bolder;
+}
+
+@media (min-width: 0px) and (max-width:600px) {
+    h1 {
+        font-size:medium;
+        padding: auto;
+        text-align: center;
+        align-content: center;
+    }
+    footer {
+        display: flex;
+        gap: 4px;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+    }
+    .sectioncard {
+        display: flex;
+        flex-direction: column;
+        columns: 1fr;
+    }
+}
+
+
+
+
+
